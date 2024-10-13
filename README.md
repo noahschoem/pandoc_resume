@@ -31,6 +31,9 @@ Make everything
 ```bash
 docker-compose up -d
 ```
+#### Custom styles
+You could check the styles directory to custom your file styles<p>
+make sure you system have the corrording font in your style file, such as me : change Helvetica ->freesans in my mint
 
 ### Requirements
 
