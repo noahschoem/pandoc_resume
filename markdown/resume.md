@@ -26,7 +26,7 @@ Professional Experience
 November 2021 to Present
 :  **Senior Associate, Data Engineer**, Capital One Financial
 
-Maintained and supported OfferExperimentation, an Airflow, EMR \& PySpark-based multithreaded distributed big data experimentation application via feature development and Run the Engine to enable SFMC-driven marketing
+Maintained and supported OfferExperimentation, an Airflow, EMR \& PySpark-based multi-threaded distributed big data experimentatiohttps://www.linkedin.com/in/shelbyheinecke/n application via feature development and Run the Engine to enable SFMC-driven marketing
 
 * Oversaw and guided on EMR to Glue migration to support Enterprise Serverless Initiative
 
@@ -36,42 +36,41 @@ Maintained and supported OfferExperimentation, an Airflow, EMR \& PySpark-based 
 
 * Created and managed security groups with Terraform to enable required system connectivity
 
-* Projects
+**Projects**
 
- * MAB IntegrationOfferExperimentation
+*MAB Integration*
 
-  * Contributed to project design for microservices integration architecture to facilitate loose coupling and evolvability
+* Contributed to project design for microservices integration architecture to facilitate loose coupling and evolvability
 
-  * Integrated OfferExperimentation to a Multi-Armed Bandit API, by implementing parallelized Spark REST API calls via User Defined Function, and later via rdd.mapPartitions, to drive automated marketing optimization
+* Integrated OfferExperimentation to a Multi-Armed Bandit API, by implementing parallelized Spark REST API calls via User Defined Function, and later via rdd.mapPartitions, to drive automated marketing optimization
 
+*Intent File Validator*
 
- * Intent File Validator
+* Reduced tech dependency for campaign onboarding and updates by 33-50\% via Intent File Validator, implemented ground-up with AWS Lambda as a GitHub app to enforce custom validation rules on CSV config file managed through GitHub and S3
 
-  * Reduced tech dependency for campaign onboarding and updates by 33-50\% via Intent File Validator, implemented ground-up with AWS Lambda as a GitHub app to enforce custom validation rules on CSV config file managed through GitHub and S3
+*Level of Effort \& Process Improvements*
 
- * Level of Effort \& Process Improvements
+* Removed deployment need (90\% reduction in effort in unhappy path; resiliency improvement) for accommodating marketing delays via Config-at-Runtime feature, interfacing with product owner to allow DevOps personnel an approved set of configurable options for manual production run overrides and unlocking 33\% faster QA testing
 
-  * Removed deployment need (90\% reduction in effort in unhappy path; resiliency improvement) for accommodating marketing delays via Config-at-Runtime feature, interfacing with product owner to allow DevOps personnel an approved set of configurable options for manual production run overrides and unlocking 33\% faster QA testing
+* Eliminated tech devhttps://www.linkedin.com/in/shelbyheinecke/elopment dependency for updating marketing campaigns (66\% reduction in effort) by spearheading design of Read-from-CSV feature, to de-duplicate campaign config and give marketers fuller configurability
 
-  * Eliminated tech development dependency for updating marketing campaigns (66\% reduction in effort) by spearheading design of Read-from-CSV feature, to de-duplicate campaign config and give marketers fuller configurability
+* Removed tech development need for onboarding new marketing campaigns via envisioning and leading my team on program-level processing capability within a single execution workflow, enabling campaign onboarding and updates via a single config file (75\% reduction in effort)
 
-  * Removed tech development need for onboarding new marketing campaigns via envisioning and leading my team on program-level processing capability within a single execution workflow, enabling campaign onboarding and updates via a single config file (75\% reduction in effort)
-
- * Vulnerability, Compliance, Well Managed Foundations
+*Vulnerability, Compliance, Well Managed Foundations*
   
-  * Achieved 80\% unit test coverage standards by writing effective tests on thousands of lines of EMR code via Pytest and unittest, meeting organizational standards and increasing developer velocity
+* Achieved 80\% unit test coverage standards by writing effective tests on thousands of lines of EMR code via Pytest and unittest, meeting organizational standards and increasing developer velocity
 
-  * Achieved test maturity compliance across multiple Lambda APIs by writing integration and system integration tests using pipenvbehave framework for Gherkin Cucumber step implementation and Mimeo for external REST API call mocks, meeting organizational standards and ensuring high confidence for future releases
+* Achieved test maturity compliance across multiple Lambda APIs by writing integration and system integration tests using pipenvbehave framework for Gherkin Cucumber step implementation and Mimeo for external REST API call mocks, meeting organizational standards and ensuring high confidence for future releases
 
-  * Ensured security and compliance of OfferExperimentation via SCA vulnerability management, SAST remediation, and being team's go-to for research and deep dives into remediating compliance issues
+* Ensured security and compliance of OfferExperimentation via SCA vulnerability management, SAST remediation, and being team's go-to for research and deep dives into remediating compliance issues
 
-* Extracurriculars
+*Extracurriculars*
 
- * Earned CSSE Professional certification on OWASP Proactive Controls
+* Earned CSSE Professional certification on OWASP Proactive Controls
 
- * Participated in Code Avengers program to safeguard the organization's code by reviewing enterprise-wide SAST findings, reviewing over 350 findings across multiple sessions and meeting a 95+\% accuracy rating
- 
- * Instructed two sections on AWS Lambda functions to support new developer orientation
+* Participated in Code Avengers program to safeguard the organization's code by reviewing enterprise-wide SAST findings, reviewing over 350 findings across multiple sessions and meeting a 95+\% accuracy rating
+
+* Instructed two sections on AWS Lambda functions to support new developer orientation
 
 June 2021 to August 2021
 :  **Data Consultant**, University of Illinois Chicago, MSCS Department
@@ -94,7 +93,7 @@ January 2020 to March 2021
   * Implemented data migration project from Excel to Airtable, a cloud-based managed database, improving data availability and integrity, automating report generation, and reducing data entry efforts
 
 June 2016 to December 2018
-:  **June ior Systems Administrator** UIC MSCS Department
+:  **Junior Systems Administrator** UIC MSCS Department
 
 * Maintained roughly 15 Linux servers (including web server, mailserver, database server) for MSCS department to support departmental and administrative operations
 
@@ -109,7 +108,7 @@ June 2018 to August 2018
 * Developed automated integrations and data transfers between department's Intranet web server, database server, and new website using Python and WP All Import to migrate the Seminar calendar and existing seminar management interfaces with new website
 
 
-January2016 to May 2016
+January 2016 to May 2016
 :  **Data Consultant** UIC, MSCS Department
 
 * Collaborated alongside associate director to understand workflow flaws and oversights and assess migration needs
