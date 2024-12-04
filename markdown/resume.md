@@ -1,11 +1,11 @@
-Noah Schoem
-===========
+Noah Schoem, PhD
+================
 
-----
+<!--
 
-> Experienced data and software engineer with 8 years experience. Honed _SQL_, _Python_ scripting, _backend development_, and _bash_ skills as a data consultant and systems administrator during graduate school, and further refined these technical skills on _AWS_, _Spark on EMR_, and _Lambda_ at Capital One on an Agile delivery team. Proven collaborative and communication track record with Product teammates and internal customers, understanding diverse perspectives and identifying gaps and needs. Strong growth mindset, adept learner, and always seeking to improve and safeguard systems and processes. Developed keen interest in Cybersecurity through professional development opportunities, and looking to upskill in Cyber. Math PhD graduate from UIC in Foundations and Logic.
+<!-- Experienced data and software engineer with 8 years experience. Honed _SQL_, _Python_ scripting, and _bash_ skills as a data consultant and sysadmin during grad school; supercharged these on _AWS_, _Spark on EMR and Glue_, and _Lambda_ on Agile delivery team. Proven collaborative and communication track record with Product teammates and internal customers, understanding diverse perspectives and identifying gaps and needs. Strong growth mindset; embraces continuing education; always seeking to improve and safeguard systems and processes.
 
---------------
+-------------- -->
 
 Certifications
 --------------
@@ -26,96 +26,87 @@ Professional Experience
 November 2021 to Present
 :  **Senior Associate, Data Engineer**, Capital One Financial
 
-Maintained and supported OfferExperimentation, an Airflow, EMR \& PySpark-based multi-threaded distributed big data experimentatiohttps://www.linkedin.com/in/shelbyheinecke/n application via feature development and Run the Engine to enable SFMC-driven marketing
+Maintained and supported OfferExperimentation, an Airflow, EMR \& PySpark-based multi-threaded distributed big data experimentation application via feature development and Run the Engine to enable SFMC-driven marketing
 
 * Oversaw and guided on EMR to Glue migration to support Enterprise Serverless Initiative
 
-* Refactored monitoring/alerting by decommissioning false positive-prone log alerts and re-implementing through Airflow, eliminating alert fatigue and providing actionable alerting
+* Refactored monitoring/alerting by decommissioning false positive-prone log alerts and re-implementing through Airflow, eliminating alert fatigue and providing actionable notifications
 
-* Implemented event-driven Airflow integration with Amazon SNS, almost entirely eliminating production issues compared to legacy scheduled DAG runs
+* Implemented event-driven Airflow integration with Amazon SNS, reducing production issues by over 90\% compared to legacy schedule-based pattern
 
-* Created and managed security groups with Terraform to enable required system connectivity
+* Created and managed security groups with Terraform to enable secure system connectivity
 
-**Projects**
+*Project: MAB Integration*
 
-*MAB Integration*
+* Contributed to project design for microservices integration architecture to facilitate loose coupling
 
-* Contributed to project design for microservices integration architecture to facilitate loose coupling and evolvability
+* Integrated with a Multi-Armed Bandit API to drive automated marketing optimization and generate substantial conversion lift, by implementing parallelized Spark REST API calls via UDF and rdd.mapPartitions
 
-* Integrated OfferExperimentation to a Multi-Armed Bandit API, by implementing parallelized Spark REST API calls via User Defined Function, and later via rdd.mapPartitions, to drive automated marketing optimization
+*Project: Intent File Validator*
 
-*Intent File Validator*
+* Reduced tech dependency for campaign onboarding and updates by 33-50\% via Intent File Validator, implemented ground-up with AWS Lambda as a GitHub app to enforce custom validation rules on CSV config file
 
-* Reduced tech dependency for campaign onboarding and updates by 33-50\% via Intent File Validator, implemented ground-up with AWS Lambda as a GitHub app to enforce custom validation rules on CSV config file managed through GitHub and S3
+*Project: Level of Effort \& Process Improvements*
 
-*Level of Effort \& Process Improvements*
+* Removed deployment need (90\% reduction in effort in unhappy path; resiliency improvement) for accommodating marketing delays and unlocking 33\% faster QA testing via Config-at-Runtime feature, collaborating with product owner to establish an approved set of manual overrides 
 
-* Removed deployment need (90\% reduction in effort in unhappy path; resiliency improvement) for accommodating marketing delays via Config-at-Runtime feature, interfacing with product owner to allow DevOps personnel an approved set of configurable options for manual production run overrides and unlocking 33\% faster QA testing
+* Eliminated tech development dependency for updating marketing campaigns (66\% reduction in effort) by spearheading design of Read-from-CSV feature, to de-duplicate campaign config and give marketers enhanced ownership and control of changes
 
-* Eliminated tech devhttps://www.linkedin.com/in/shelbyheinecke/elopment dependency for updating marketing campaigns (66\% reduction in effort) by spearheading design of Read-from-CSV feature, to de-duplicate campaign config and give marketers fuller configurability
+<!--* Removed tech development need for onboarding new marketing campaigns (75\% reduction in tech team effort) via envisioning and leading team on program-level processing capability within a single execution workflow, enabling campaign onboarding and updates via a single config file-->
 
-* Removed tech development need for onboarding new marketing campaigns via envisioning and leading my team on program-level processing capability within a single execution workflow, enabling campaign onboarding and updates via a single config file (75\% reduction in effort)
-
-*Vulnerability, Compliance, Well Managed Foundations*
+*Project: Vulnerability, Compliance, Test Automation Foundations*
   
-* Achieved 80\% unit test coverage standards by writing effective tests on thousands of lines of EMR code via Pytest and unittest, meeting organizational standards and increasing developer velocity
+* Achieved 80\% unit test coverage standards by writing effective tests on thousands of lines of Spark code via Pytest and unittest, meeting organizational standards and increasing developer velocity
 
-* Achieved test maturity compliance across multiple Lambda APIs by writing integration and system integration tests using pipenvbehave framework for Gherkin Cucumber step implementation and Mimeo for external REST API call mocks, meeting organizational standards and ensuring high confidence for future releases
+* Achieved test maturity compliance across multiple Lambda APIs, meeting organizational standards and ensuring high release confidence, by writing integration and system integration tests using behave for Cucumber step implementation and Mimeo for external REST API mocks
 
-* Ensured security and compliance of OfferExperimentation via SCA vulnerability management, SAST remediation, and being team's go-to for research and deep dives into remediating compliance issues
+<!--* Ensured security and compliance of OfferExperimentation via SCA vulnerability management and SAST remediation; Team champion for research and deep dives into remediating security issues-->
 
 *Extracurriculars*
 
 * Earned CSSE Professional certification on OWASP Proactive Controls
 
-* Participated in Code Avengers program to safeguard the organization's code by reviewing enterprise-wide SAST findings, reviewing over 350 findings across multiple sessions and meeting a 95+\% accuracy rating
+* Achieved Champion status in Code Avengers program to safeguard the organization's code by reviewing enterprise-wide SAST findings, reviewing over 500 findings across multiple sessions and meeting a 95+\% quality review rating
 
-* Instructed two sections on AWS Lambda functions to support new developer orientation
+* Co-instructed two sections of 50 students on AWS Lambda to support new developer orientation
 
-June 2021 to August 2021
-:  **Data Consultant**, University of Illinois Chicago, MSCS Department
+January 2016 to August 2021
+:  **Research and Graduate Assistant**, University of Illinois Chicago, MSCS Department
 
-* Managed and administered department's graduate and personnel SQL databases to ensure data reliability
+* Maintained roughly 15 Linux servers (including web server, mailserver, database server) for MSCS department to support departmental and administrative operations
 
-* Refined web tools to manage Graduate Studies Office data entry \& reporting needs, combining a dozen disparate tools into a single management interface, providing a one-stop shop for graduate data reporting and management
+* Developed Python-based automations for  to querying and processing remote data warehouse information and local data for departmental needs, reducing data duplication and manual entry
 
-* Scripted Python-based automations for querying and processing remote data warehouse information and local data for departmental needs, reducing data duplication and manual entry
+*Project: Database Migration and UI Creation*
+
+* Collaborated alongside associate director to understand workflow flaws, gaps, and oversights, and assess migration needs
+
+* Overhauled Graduate Studies’ information management systems, ensuring data consistency, improving maintainability, and enabling informative and reliable reporting, by manually cleaning, deduplicating, and migrating data from MS Access to an SQL server, and developing Python-based web interfaces for data management and retrieval
+
+* Refined web UI to manage Graduate Studies Office data entry \& reporting needs, combining a dozen disparate tools into a single management interface, eliminating information sprawl and providing a one-stop shop for data reporting and update
+
+*Project: Website migration*
+
+
+* Managed migration of MSCS department's website from Zope to WordPress,  ensure long-term content generation and maintenance, by curating and editing subject matter and training other content managers on new interfaces
+
+* Coordinated with department personnel and site-wide systems administrators to address system integration needs, ensuring feature parity between new and existing websites, by leveraging MathJax and WP All Import ACF Addon
+
+<!--* Developed automated integrations and data transfers between department's Intranet web server, database server, and new website using Python and WP All Import to migrate the Seminar calendar and existing seminar management interfaces with new website-->
+
+
+
+<!--Volunteer Experience
+--------------------
 
 January 2020 to March 2021
 :  **Volunteer Data Consultant**, UIC Graduate Employees Organization
 
-* Advised leadership committee on technical and data matters, including data governance and security
+* Advised leadership committee on technical matters, data governance, and security
 
-* Projects
- 
- * Managed Data Migration
+*Project: Managed Data Migration*
   
-  * Implemented data migration project from Excel to Airtable, a cloud-based managed database, improving data availability and integrity, automating report generation, and reducing data entry efforts
-
-June 2016 to December 2018
-:  **Junior Systems Administrator** UIC MSCS Department
-
-* Maintained roughly 15 Linux servers (including web server, mailserver, database server) for MSCS department to support departmental and administrative operations
-
-
-June 2018 to August 2018
-:  **Website Developer** UIC
-
-* Managed migration of MSCS department's website from Zope to WordPress by curating and editing content and training other content managers to ensure long-term content generation and maintenance
-
-* Coordinated with department personnel and site-wide systems administrators to address and implement special website software, integration, and configuration needs, such as MathJax and WP All Import ACF Addon, to ensure feature parity between new and existing websites
-
-* Developed automated integrations and data transfers between department's Intranet web server, database server, and new website using Python and WP All Import to migrate the Seminar calendar and existing seminar management interfaces with new website
-
-
-January 2016 to May 2016
-:  **Data Consultant** UIC, MSCS Department
-
-* Collaborated alongside associate director to understand workflow flaws and oversights and assess migration needs
-
-* Overhauled Graduate Studies’ information management systems by cleaning, deduplicating, and migrating data from MS Access to an SQL server, and developing Python-based web interfaces for data management and retrieval, ensuring data consistency, improving maintainability, and enabling informative and reliable reporting
-
-
+* Implemented data migration from Excel to Airtable, a cloud managed database, securing data availability and integrity, automating report generation, and reducing data entry efforts-->
 
 Education
 --------------------
@@ -131,4 +122,3 @@ June 2015
 
 
 > <nschoem@gmail.com> • <https://github.com/noahschoem> • <https://linkedin.com/in/noahschoem> \
-> Chicago, IL
